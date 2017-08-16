@@ -9,10 +9,11 @@
 
 ## Install
 
-Install `stow`
+Install dependencies
+
 
 ```bash
-$ brew install stow
+$ brew install stow zsh zsh-completions antigen
 ```
 
 Clone repository to `~/dotfiles`
