@@ -1,0 +1,28 @@
+[user]
+	name = Vu Tran
+	email = vutran@dropbox.com
+[push]
+	default = simple
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+[color "branch"]
+	current = blue
+	local = yellow
+	remote = green
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
+[alias]
+	unstage = reset HEAD --
+	last = log -1 HEAD
+[oh-my-zsh]
+	hide-status = 1
+	hide-dirty = 1
