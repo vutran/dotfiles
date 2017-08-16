@@ -107,6 +107,7 @@ Plugin 'flowtype/vim-flow', { 'autoload': { 'filetypes': 'javascript' } }
 Plugin 'joshdick/onedark.vim'
 Plugin 'vim-scripts/npm.vim'
 Plugin 'mitermayer/vim-prettier'
+Plugin 'tmux-plugins/vim-tmux'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
