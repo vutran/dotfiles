@@ -109,6 +109,9 @@ alias gbm="git branch -m"
 # nfs alias
 alias nfs-clean="git checkout -- rendered && git clean -fd rendered"
 
+# devbox
+alias devbox="ssh $USER-dbx"
+
 export PATH="$HOME/.yarn/bin:$PATH"
 
 alias tmux='tmux -2'
