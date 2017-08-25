@@ -115,3 +115,7 @@ alias devbox="ssh $USER-dbx"
 export PATH="$HOME/.yarn/bin:$PATH"
 
 alias tmux='tmux -2'
+
+# Go
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin

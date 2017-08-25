@@ -1,4 +1,4 @@
-"enable line numbers
+"heigthenable line numbers
 set number
 
 " enable mouse usage in all modes
@@ -108,6 +108,9 @@ Plugin 'joshdick/onedark.vim'
 Plugin 'vim-scripts/npm.vim'
 Plugin 'mitermayer/vim-prettier'
 Plugin 'tmux-plugins/vim-tmux'
+Plugin 'fatih/vim-go'
+Plugin 'nsf/gocode'
+Plugin 'tweekmonster/gofmt.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

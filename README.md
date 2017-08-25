@@ -31,3 +31,11 @@ $ stow vim
 $ stow zsh
 $ stow git
 ```
+
+## YouCompleteMe
+
+Install completers:
+
+```
+$ ~/vim/bundle/YouCompleteMe/install. --gocode-completer --tern-completer
+```
