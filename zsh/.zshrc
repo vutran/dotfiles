@@ -88,7 +88,7 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # enable user's agignore file
-alias ag='ag --path-to-ignore ~/.agignore'
+alias ag='ag --path-to-ignore ~/.ignore'
 
 KEYTIMEOUT=1
 
