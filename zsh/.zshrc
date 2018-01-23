@@ -53,7 +53,7 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git ssh-agent zsh-syntax-highlighting tmux)
 
-export PATH="./node_modules/.bin:./vendor/bin:$PATH"
+export PATH="/opt/dropbox-override/bin:./node_modules/.bin:./vendor/bin:$PATH"
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/.gohrc
@@ -99,6 +99,7 @@ alias sbs='cdiff -s -w 0'
 alias aqs="arc queue-status"
 alias ad="arc diff"
 alias adp="arc diff --preview"
+alias al="arc list"
 
 # git alias
 alias gdl="git diff --cached HEAD^"

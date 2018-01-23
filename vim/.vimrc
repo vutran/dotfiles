@@ -113,6 +113,7 @@ Plugin 'nsf/gocode'
 Plugin 'tweekmonster/gofmt.vim'
 Plugin 'JamshedVesuna/vim-markdown-preview'
 Plugin 'kchmck/vim-coffee-script'
+Plugin 'klen/python-mode'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -184,3 +185,6 @@ let g:prettier#config#jsx_bracket_same_line = 'false'
 let vim_markdown_preview_hotkey='<C-m>'
 let vim_markdown_preview_github=1
 let vim_markdown_preview_browser='Google Chrome'
+
+" python-mode
+let g:pymode_folding = 0
