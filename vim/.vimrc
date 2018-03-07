@@ -157,6 +157,13 @@ let g:ale_echo_msg_error_str = 'E'
 let g:ale_echo_msg_warning_str = 'W'
 let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
 
+let g:ale_fixers = {}
+let g:ale_fixers['javascript'] = ['prettier']
+let g:ale_fixers['typescript'] = ['prettier']
+let g:ale_fixers['json'] = ['prettier']
+let g:ale_fix_on_save = 1
+let g:ale_javascript_prettier_use_local_config = 1
+
 " enable vim-airline
 let g:airline_theme='onedark'
 let g:airline_powerline_fonts = 1
