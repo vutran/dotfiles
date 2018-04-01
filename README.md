@@ -5,21 +5,34 @@
 
 ## Requirements
 
+- Homebrew
 - stow
 
 ## Install
 
-Install core
+Install [Homebrew](https://brew.sh)
+
+```
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+## Install GNU Stow
+
+```
+$ brew install stow
+```
+
+## Other Tooling
 
 
 ```bash
-$ brew install the_silver_searcher tmux stow antigen
+$ brew install the_silver_searcher tmux
 ```
 
-Install Zsh, Oh My Zsh
+Install Zsh with completions, Antigen, and Oh My Zsh
 
 ```
-$ brew install zsh zsh-completions
+$ brew install zsh zsh-completions antigen
 
 $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
@@ -30,7 +43,7 @@ $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools
 Install Node
 
 ```
-$ brew install node
+$ brew install node yarn
 ```
 
 Clone repository to `~/dotfiles`
@@ -47,6 +60,7 @@ $ cd ~/dotfiles
 $ stow vim
 $ stow zsh
 $ stow git
+# etc..
 ```
 
 ## Vim Setup
@@ -59,7 +73,7 @@ $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 ### YouCompleteMe
 
-Install completers:
+Install YCM completers:
 
 ```
 $ ~/vim/bundle/YouCompleteMe/install. --gocode-completer --tern-completer
