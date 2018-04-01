@@ -1,0 +1,5 @@
+# set theme
+antigen theme clean
+
+# apply
+antigen apply
