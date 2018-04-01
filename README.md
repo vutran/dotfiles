@@ -9,11 +9,25 @@
 
 ## Install
 
-Install dependencies
+Install core
 
 
 ```bash
-$ brew install stow zsh zsh-completions antigen the_silver_searcher node tmux
+$ brew install the_silver_searcher tmux stow antigen
+```
+
+Install Zsh, Oh My Zsh
+
+```
+$ brew install zsh zsh-completions
+
+$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+Install Node
+
+```
+$ brew install node
 ```
 
 Clone repository to `~/dotfiles`
