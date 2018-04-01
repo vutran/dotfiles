@@ -32,7 +32,15 @@ $ stow zsh
 $ stow git
 ```
 
-## YouCompleteMe
+## Vim Setup
+
+Install Vundle:
+
+```
+$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+
+### YouCompleteMe
 
 Install completers:
 
