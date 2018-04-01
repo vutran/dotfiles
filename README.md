@@ -34,8 +34,6 @@ Install Zsh with completions, Antigen, and Oh My Zsh
 ```
 $ brew install zsh zsh-completions antigen
 
-$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
 # edit /etc/shells and append /usr/local/bin/zsh (since it was installed via brew)
 # link: https://stackoverflow.com/questions/31034870/making-zsh-default-shell-in-macosx#comment77696410_44547726
 ```
