@@ -13,7 +13,7 @@ Install dependencies
 
 
 ```bash
-$ brew install stow zsh zsh-completions antigen the_silver_searcher node
+$ brew install stow zsh zsh-completions antigen the_silver_searcher node tmux
 ```
 
 Clone repository to `~/dotfiles`
