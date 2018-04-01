@@ -1,4 +1,11 @@
-# set theme
+# load oh-my-zsh
+antigen use oh-my-zsh
+
+# load bundles
+antigen bundle git # git completions
+antigen bundle git-extras # git completions
+antigen bundle command-not-found
+
 antigen theme clean
 
 # apply
