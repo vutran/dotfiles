@@ -44,6 +44,12 @@ Install Node
 $ brew install node yarn
 ```
 
+Install Other
+
+```
+$ brew install the_silver_searcher cdiff
+```
+
 Clone repository to `~/dotfiles`
 
 ```bash
