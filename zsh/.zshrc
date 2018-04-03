@@ -7,9 +7,6 @@ include () {
 source /usr/local/share/antigen/antigen.zsh
 include $HOME/.antigenrc
 
-# load plugins
-plugins=(git ssh-agent zsh-syntax-highlighting tmux)
-
 # incude local node_modules and vendor folder in path
 export PATH="./node_modules/.bin:./vendor/bin:$PATH"
 
@@ -41,6 +38,9 @@ alias glm="git log --author=vutran"
 alias gbm="git branch -m"
 
 alias tmux='tmux -2'
+
+# launch tmux if it exists
+if [ "$TMUX" = "" ]; then tmux; fi
 
 # Go
 export GOPATH=$HOME/go

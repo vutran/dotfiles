@@ -2,9 +2,19 @@
 antigen use oh-my-zsh
 
 # load bundles
+antigen bundle ssh-agent
 antigen bundle git # git completions
 antigen bundle git-extras # git completions
 antigen bundle command-not-found
+antigen bundle node
+antigen bundle npm
+antigen bundle tmux
+antigen bundle yarn
+
+# other zsh plugins
+antigen bundle zsh-users/zsh-completions
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-autosuggestions
 
 antigen theme clean
 
