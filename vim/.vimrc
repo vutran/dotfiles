@@ -114,6 +114,8 @@ Plugin 'tweekmonster/gofmt.vim'
 Plugin 'JamshedVesuna/vim-markdown-preview'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'klen/python-mode'
+Plugin 'wakatime/vim-wakatime'
+Plugin 'jparise/vim-graphql'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
