@@ -99,7 +99,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpope/vim-fugitive'
 Plugin 'mileszs/ack.vim'
-Plugin 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' }
+Plugin 'Valloric/YouCompleteMe', { 'do': './install.py --go-completer --js-completer --tern-completer' }
 Plugin 'Quramy/tsuquyomi'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'pangloss/vim-javascript'
