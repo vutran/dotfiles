@@ -38,6 +38,7 @@ alias gdls="git diff --cached HEAD^ --stat"
 alias gundo="git reset --soft HEAD^"
 alias glm="git log --author=vutran"
 alias gbm="git branch -m"
+alias glp="git log --format=\"%Cgreen%h %Cblue %ae %Cred %aI %Creset %s\""
 
 alias tmux='tmux -2'
 
