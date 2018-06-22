@@ -44,16 +44,25 @@ alias tmux='tmux -2'
 # launch tmux if it exists
 if [ "$TMUX" = "" ]; then tmux; fi
 
+# load nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
 # Go
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
 # Python virtual env wrapper
+alias python='python3'
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Devel
+
+GPG_TTY=$(tty)
+export GPG_TTY
 
 # goh config
 include $HOME/.gohrc
 
 # load dropbox config
 include $HOME/.dropboxrc
+

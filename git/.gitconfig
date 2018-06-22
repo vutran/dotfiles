@@ -1,6 +1,7 @@
 [user]
 	name = Vu Tran
-	email = vutran@dropbox.com
+	email = vu@vu-tran.com
+	signingkey = 6CED569856FC8519
 [push]
 	default = simple
 [color]
@@ -28,3 +29,7 @@
 	hide-dirty = 1
 [core]
 	ignorecase = false
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
