@@ -197,3 +197,6 @@ let vim_markdown_preview_browser='Google Chrome'
 
 " python-mode
 let g:pymode_folding = 0
+
+" ignore Python files in NERDTree
+let NERDTreeIgnore = ['\.pyc$', '__pycache__']
