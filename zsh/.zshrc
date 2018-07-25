@@ -65,13 +65,6 @@ source /usr/local/bin/virtualenvwrapper.sh
 GPG_TTY=$(tty)
 export GPG_TTY
 
-# goh config
-# - requires installation of vutran/goh
-include $HOME/.gohrc
-
-# load dropbox config
-include $HOME/.dropboxrc
-
 # make brew mysql-client available in the path
 # - require installation of `mysql-client`
 #  - brew install mysql-client
@@ -79,3 +72,10 @@ export PATH="/usr/local/opt/mysql-client/bin:$PATH"
 
 # alias `todolist` (http://todolist.site/)
 alias t="todolist"
+
+# goh config
+# - requires installation of vutran/goh
+include $HOME/.gohrc
+
+# load dropbox config
+include $HOME/.dropboxrc
