@@ -76,3 +76,6 @@ include $HOME/.dropboxrc
 # - require installation of `mysql-client`
 #  - brew install mysql-client
 export PATH="/usr/local/opt/mysql-client/bin:$PATH"
+
+# alias `todolist` (http://todolist.site/)
+alias t="todolist"
