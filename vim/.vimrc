@@ -116,6 +116,7 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'klen/python-mode'
 Plugin 'wakatime/vim-wakatime'
 Plugin 'jparise/vim-graphql'
+Plugin 'dyng/ctrlsf.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -198,5 +199,8 @@ let vim_markdown_preview_browser='Google Chrome'
 " python-mode
 let g:pymode_folding = 0
 
-" ignore Python files in NERDTree
+" ctrlsf.vim
+nmap     <C-F>f <Plug>CtrlSFPrompt
+
+" NERDTree configs
 let NERDTreeIgnore = ['\.pyc$', '__pycache__']

@@ -73,9 +73,13 @@ export PATH="/usr/local/opt/mysql-client/bin:$PATH"
 # alias `todolist` (http://todolist.site/)
 alias t="todolist"
 
+# alias `todolist` (http://todolist.site/)
+alias t="todolist"
+
 # goh config
 # - requires installation of vutran/goh
 include $HOME/.gohrc
 
 # load dropbox config
 include $HOME/.dropboxrc
+export PATH="/usr/local/opt/mysql-client/bin:$PATH"
