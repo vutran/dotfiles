@@ -26,7 +26,7 @@ $ brew install stow
 
 
 ```bash
-$ brew install the_silver_searcher tmux
+$ brew install the_silver_searcher tmux reattach-to-user-namespace ydiff
 ```
 
 Install Zsh with completions, Antigen, and Oh My Zsh
@@ -42,12 +42,6 @@ Install Node
 
 ```
 $ brew install node yarn
-```
-
-Install Other
-
-```
-$ brew install the_silver_searcher cdiff
 ```
 
 Clone repository to `~/dotfiles`

@@ -23,8 +23,8 @@ KEYTIMEOUT=1
 # enable user's agignore file
 alias ag='ag --path-to-ignore ~/.ignore'
 
-# cdiff
-alias sbs='cdiff -s -w 0'
+# ydiff
+alias sbs='ydiff -s -w 0'
 
 # arc alias
 alias aqs="arc queue-status"
@@ -53,14 +53,10 @@ export NVM_DIR="$HOME/.nvm"
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
-# prefer python and pip 3
-alias python='python3'
-alias pip='pip3'
-# set our virtualenvwrapper to use python3
-export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
+# virtualenvwrapper
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Devel
-source /usr/local/bin/virtualenvwrapper.sh
+source $HOME/Library/Python/2.7/bin/virtualenvwrapper.sh
 
 GPG_TTY=$(tty)
 export GPG_TTY
@@ -73,13 +69,9 @@ export PATH="/usr/local/opt/mysql-client/bin:$PATH"
 # alias `todolist` (http://todolist.site/)
 alias t="todolist"
 
-# alias `todolist` (http://todolist.site/)
-alias t="todolist"
-
 # goh config
 # - requires installation of vutran/goh
 include $HOME/.gohrc
 
 # load dropbox config
 include $HOME/.dropboxrc
-export PATH="/usr/local/opt/mysql-client/bin:$PATH"
