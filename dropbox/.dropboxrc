@@ -1,13 +1,7 @@
 # Dropbox-specific config
 
-# include paths for dropbox
+# DBX binary overrides
 export PATH="/opt/dropbox-override/bin:$PATH"
-
-# nfs alias
-alias nfs-clean="git checkout -- rendered && git clean -fd rendered"
 
 # devbox
 alias devbox="ssh $USER-dbx"
-# load python virtualenvwrapper
-include /usr/local/bin/virtualenvwrapper.sh
-
