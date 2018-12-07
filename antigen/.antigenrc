@@ -10,6 +10,7 @@ antigen bundle node
 antigen bundle npm
 antigen bundle tmux
 antigen bundle yarn
+antigen bundle lukechilds/zsh-nvm
 
 # other zsh plugins
 antigen bundle zsh-users/zsh-completions

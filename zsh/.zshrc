@@ -46,8 +46,8 @@ alias tmux='tmux -2'
 if [ "$TMUX" = "" ]; then tmux; fi
 
 # load nvm
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+#export NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}nvm"
+#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
 # Go
 export GOPATH=$HOME/go
@@ -56,6 +56,8 @@ export PATH=$PATH:$GOPATH/bin
 # virtualenvwrapper
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Devel
+
+# default path to the Mac's Python bin path
 source $HOME/Library/Python/2.7/bin/virtualenvwrapper.sh
 
 GPG_TTY=$(tty)

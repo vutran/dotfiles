@@ -150,9 +150,9 @@ let g:ctrlp_custom_ignore = {
 
 " Ale
 let g:ale_linters = {
-  \ 'javascript': ['tslint'],
+  \ 'javascript': ['tsserver'],
   \ 'json': ['jsonlint'],
-  \ 'typescript': ['tslint'],
+  \ 'typescript': ['tsserver'],
   \ 'python': ['flake8'],
   \ 'vim': ['vint']
   \ }
@@ -175,6 +175,9 @@ let g:airline#extensions#ale#enabled = 1
 
 " enable Ag (the silver searcher)
 let g:ackprg = 'ag --nogroup --nocolor --column'
+
+" tsuquyomi configs
+let g:tsuquyomi_javascript_support = 1 " enable tsuquyomi for regular JS files
 
 " vim-javascript configurations
 let g:javascript_plugin_jsdoc = 1 " enable jsdoc syntax highlighting
