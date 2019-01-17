@@ -34,6 +34,9 @@ set incsearch
 " allow backspace
 set backspace=2
 
+" set max length
+set colorcolumn=100
+
 " lower esc delays
 set timeoutlen=1000 ttimeoutlen=0
 
