@@ -102,7 +102,8 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpope/vim-fugitive'
 Plugin 'mileszs/ack.vim'
-Plugin 'Valloric/YouCompleteMe', { 'do': './install.py --go-completer --js-completer --tern-completer' }
+Plugin 'Valloric/YouCompleteMe', { 'do': './install.py --go-completer --js-completer --tern-completer --clang-completer' }
+Plugin 'jerrymarino/iCompleteMe', { 'do': './install.py' }
 Plugin 'Quramy/tsuquyomi'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'pangloss/vim-javascript'
@@ -120,6 +121,7 @@ Plugin 'klen/python-mode'
 Plugin 'wakatime/vim-wakatime'
 Plugin 'jparise/vim-graphql'
 Plugin 'dyng/ctrlsf.vim'
+Plugin 'keith/swift.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
