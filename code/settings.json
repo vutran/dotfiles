@@ -1,0 +1,11 @@
+{
+  "window.zoomLevel": 0,
+  "editor.formatOnSave": true,
+  "vim.disableExtension": true,
+  "prettier.tslintIntegration": true,
+  "editor.accessibilitySupport": "off",
+  "html.autoClosingTags": false,
+  "files.exclude": {
+    "**/*.pyc": true
+  }
+}
