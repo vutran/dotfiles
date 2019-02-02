@@ -66,7 +66,7 @@ $ stow git
 Install VIM:
 
 ```
-$ brew install vim -with-override-system-vim
+$ brew install vim --with-lua --with-override-system-vi
 ```
 
 
