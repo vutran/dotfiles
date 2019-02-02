@@ -63,6 +63,13 @@ $ stow git
 
 ## Vim Setup
 
+Install VIM:
+
+```
+$ brew install vim -with-override-system-vim
+```
+
+
 Install Vundle:
 
 ```
