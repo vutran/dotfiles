@@ -40,11 +40,6 @@ alias glm="git log --author=vutran"
 alias gbm="git branch -m"
 alias glp="git log --format=\"%Cgreen%h %Cblue %ae %Cred %aI %Creset %s\""
 
-alias tmux='tmux -2'
-
-# launch tmux if it exists
-if [ "$TMUX" = "" ]; then tmux; fi
-
 # load nvm
 #export NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}nvm"
 #[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
@@ -57,9 +52,6 @@ export PATH=$PATH:$GOPATH/bin
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Devel
 
-# default path to the Mac's Python bin path
-source $HOME/Library/Python/2.7/bin/virtualenvwrapper.sh
-
 GPG_TTY=$(tty)
 export GPG_TTY
 
@@ -70,6 +62,9 @@ export PATH="/usr/local/opt/mysql-client/bin:$PATH"
 
 # alias `todolist` (http://todolist.site/)
 alias t="todolist"
+
+# default path to the Mac's Python bin path
+include $HOME/Library/Python/2.7/bin/virtualenvwrapper.sh
 
 # goh config
 # - requires installation of vutran/goh
