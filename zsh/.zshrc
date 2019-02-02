@@ -20,6 +20,9 @@ export EDITOR='vim'
 
 KEYTIMEOUT=1
 
+# force tmux 256 colors
+alias tmux='tmux -2'
+
 # enable user's agignore file
 alias ag='ag --path-to-ignore ~/.ignore'
 
