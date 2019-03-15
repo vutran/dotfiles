@@ -22,6 +22,10 @@
 	changed = green
 	untracked = cyan
 [alias]
+	ci = commit
+	co = checkout
+	fstash = !git-fast-stash
+	st = status
 	unstage = reset HEAD --
 	last = log -1 HEAD
 [oh-my-zsh]
