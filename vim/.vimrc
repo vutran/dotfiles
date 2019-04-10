@@ -103,7 +103,8 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpope/vim-fugitive'
 Plugin 'mileszs/ack.vim'
 Plugin 'Valloric/YouCompleteMe', { 'do': './install.py --go-completer --js-completer --tern-completer --clang-completer' }
-Plugin 'jerrymarino/iCompleteMe', { 'do': './install.py' }
+" Disabling iCompleteMe below since it interferes with <C-k> mapping
+"Plugin 'jerrymarino/iCompleteMe', { 'do': './install.py' }
 Plugin 'Quramy/tsuquyomi'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'pangloss/vim-javascript'
@@ -120,7 +121,6 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'klen/python-mode'
 Plugin 'wakatime/vim-wakatime'
 Plugin 'jparise/vim-graphql'
-Plugin 'dyng/ctrlsf.vim'
 Plugin 'keith/swift.vim'
 
 " All of your Plugins must be added before the following line
@@ -206,9 +206,6 @@ let vim_markdown_preview_browser='Google Chrome'
 
 " python-mode
 let g:pymode_folding = 0
-
-" ctrlsf.vim
-nmap     <C-F>f <Plug>CtrlSFPrompt
 
 " NERDTree configs
 let NERDTreeIgnore = ['\.pyc$', '__pycache__']
