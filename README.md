@@ -21,6 +21,7 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 - iTerm - One Dark - [Download](https://github.com/joshdick/onedark.vim)
 - Slate Window Management - [Download](https://github.com/jigish/slate)
 - Powerline Fonts - [Download](https://github.com/powerline/fonts)
+- Tmux Plugin Manager - [Download](https://github.com/tmux-plugins/tpm)
 
 ## Install GNU Stow
 
