@@ -23,6 +23,12 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 - Powerline Fonts - [Download](https://github.com/powerline/fonts) - Set to `Hack`
 - Tmux Plugin Manager - [Download](https://github.com/tmux-plugins/tpm)
 
+## Install cmake
+
+```
+$ brew install cmake
+```
+
 ## Install GNU Stow
 
 ```
