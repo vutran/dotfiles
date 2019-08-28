@@ -16,6 +16,11 @@ Install [Homebrew](https://brew.sh)
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
+## Other Packages
+
+- iTerm - One Dark - [Download](https://github.com/joshdick/onedark.vim)
+- Slate Window Management - [Download](https://github.com/jigish/slate)
+
 ## Install GNU Stow
 
 ```
