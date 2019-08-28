@@ -90,3 +90,7 @@ Install YCM completers:
 ```
 $ ~/vim/bundle/YouCompleteMe/install. --gocode-completer --tern-completer
 ```
+## Tmux Setup
+
+Follow instructions to install via `tpm` [here](https://github.com/tmux-plugins/tpm#installing-plugins
+)
