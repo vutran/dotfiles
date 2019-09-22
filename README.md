@@ -94,7 +94,7 @@ $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 Install YCM completers:
 
 ```
-$ ~/vim/bundle/YouCompleteMe/install. --gocode-completer --tern-completer
+$ ~/.vim/bundle/YouCompleteMe/install.py --gocode-completer --tern-completer
 ```
 ## Tmux Setup
 
