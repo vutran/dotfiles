@@ -122,6 +122,7 @@ Plugin 'klen/python-mode'
 Plugin 'wakatime/vim-wakatime'
 Plugin 'jparise/vim-graphql'
 Plugin 'keith/swift.vim'
+Plugin 'styled-components/vim-styled-components'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

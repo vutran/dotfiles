@@ -18,6 +18,9 @@ export PATH="$HOME/.yarn/bin:$PATH"
 # Preferred editor for local and remote sessions
 export EDITOR='vim'
 
+# set default shell
+export SHELL='zsh'
+
 KEYTIMEOUT=1
 
 # force tmux 256 colors
@@ -75,3 +78,4 @@ include $HOME/.gohrc
 
 # load dropbox config
 include $HOME/.dropboxrc
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
