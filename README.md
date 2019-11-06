@@ -16,6 +16,19 @@ Install [Homebrew](https://brew.sh)
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
+## Other Packages
+
+- iTerm - One Dark - [Download](https://github.com/joshdick/onedark.vim)
+- Slate Window Management - [Download](https://github.com/jigish/slate)
+- Powerline Fonts - [Download](https://github.com/powerline/fonts) - Set to `Hack`
+- Tmux Plugin Manager - [Download](https://github.com/tmux-plugins/tpm)
+
+## Install cmake
+
+```
+$ brew install cmake
+```
+
 ## Install GNU Stow
 
 ```
@@ -81,5 +94,9 @@ $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 Install YCM completers:
 
 ```
-$ ~/vim/bundle/YouCompleteMe/install. --gocode-completer --tern-completer
+$ ~/.vim/bundle/YouCompleteMe/install.py --gocode-completer --tern-completer
 ```
+## Tmux Setup
+
+Follow instructions to install via `tpm` [here](https://github.com/tmux-plugins/tpm#installing-plugins
+)
