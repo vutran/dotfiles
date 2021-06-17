@@ -111,7 +111,6 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'flowtype/vim-flow', { 'autoload': { 'filetypes': 'javascript' } }
 Plugin 'joshdick/onedark.vim'
 Plugin 'vim-scripts/npm.vim'
-Plugin 'mitermayer/vim-prettier'
 Plugin 'tmux-plugins/vim-tmux'
 Plugin 'fatih/vim-go'
 Plugin 'nsf/gocode'
@@ -166,12 +165,17 @@ let g:ale_echo_msg_error_str = 'E'
 let g:ale_echo_msg_warning_str = 'W'
 let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
 
-let g:ale_fixers = {}
-let g:ale_fixers['javascript'] = ['prettier']
-let g:ale_fixers['typescript'] = ['prettier']
-let g:ale_fixers['json'] = ['prettier']
+let g:ale_fixers = {
+  \ 'javascript': ['prettier'],
+  \ 'typescript': ['prettier'],
+  \ 'typescriptreact': ['prettier'],
+  \ 'markdown': ['prettier'],
+  \ 'markdown.mdx': ['prettier'],
+  \ 'less': ['prettier'],
+  \ 'json': ['prettier'],
+  \ 'yaml': ['prettier'],
+  \}
 let g:ale_fix_on_save = 1
-let g:ale_javascript_prettier_use_local_config = 1
 
 " enable vim-airline
 let g:airline_theme='onedark'
@@ -191,14 +195,6 @@ let g:javascript_plugin_flow = 1 " enable flowtype syntax highlighting
 
 " vim-flow
 let g:flow#autoclose = 1 " auto-close the flow checker window when no errors are found
-
-" vim-prettier
-let g:prettier#config#tab_width = 4
-let g:prettier#config#trailing_comma = 'es5'
-let g:prettier#config#single_quote = 'true'
-let g:prettier#config#parser = 'typescript'
-let g:prettier#config#bracket_spacing = 'true'
-let g:prettier#config#jsx_bracket_same_line = 'false'
 
 " vim-markdown-preview
 let vim_markdown_preview_hotkey='<C-m>'
