@@ -1,9 +1,15 @@
 autoload -U compinit && compinit
 
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
 ### Helper methods
 include () {
     [[ -f "$1" ]] && source "$1"
 }
+
+# Path to your oh-my-zsh installation.
+export ZSH="/Users/vutran/.oh-my-zsh"
+source $ZSH/oh-my-zsh.sh
 
 # default path to the Mac's Python bin path
 include $HOME/Library/Python/2.7/bin/virtualenvwrapper.sh
@@ -11,10 +17,6 @@ include $HOME/Library/Python/2.7/bin/virtualenvwrapper.sh
 # goh config
 # - requires installation of vutran/goh
 include $HOME/.gohrc
-
-# load dropbox config
-include $HOME/.dropboxrc
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Bootstrap Antigen
 source /usr/local/share/antigen/antigen.zsh
@@ -88,3 +90,7 @@ alias glp="git log --format=\"%Cgreen%h %Cblue %ae %Cred %aI %Creset %s\""
 
 # alias `todolist` (http://todolist.site/)
 alias t="todolist"
+
+# load org-specific configs
+include $HOME/.dropboxrc
+include $HOME/.airtablerc
