@@ -1,7 +1,3 @@
-[user]
-	name = Vu Tran
-	email = vutran@dropbox.com
-	signingkey = 6CED569856FC8519
 [push]
 	default = simple
 [color]
@@ -37,3 +33,5 @@
 	gpgsign = false
 [gpg]
 	program = gpg
+[pull]
+	rebase = false
