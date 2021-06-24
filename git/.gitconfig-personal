@@ -1,0 +1,5 @@
+[commit]
+	gpgsign = true
+[user]
+	name = "Vu Tran"
+	email = "vu@vu-tran.com"
