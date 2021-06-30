@@ -7,10 +7,6 @@ include () {
     [[ -f "$1" ]] && source "$1"
 }
 
-# Path to your oh-my-zsh installation.
-export ZSH="/Users/vutran/.oh-my-zsh"
-source $ZSH/oh-my-zsh.sh
-
 # default path to the Mac's Python bin path
 include $HOME/Library/Python/2.7/bin/virtualenvwrapper.sh
 
@@ -63,6 +59,11 @@ KEYTIMEOUT=1
 GPG_TTY=$(tty)
 export GPG_TTY
 
+# Tmux settings
+ZSH_TMUX_AUTOSTART=true
+
+plugins=(git tmux vscode)
+
 ### Alias
 
 # Force tmux 256 colors
@@ -94,3 +95,7 @@ alias t="todolist"
 # load org-specific configs
 include $HOME/.dropboxrc
 include $HOME/.airtablerc
+
+# Path to your oh-my-zsh installation.
+export ZSH="/Users/vutran/.oh-my-zsh"
+source $ZSH/oh-my-zsh.sh
