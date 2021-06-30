@@ -10,6 +10,9 @@ highlight LineNr ctermfg=DarkGray
 " enable syntax highlighting
 syntax enable
 
+" highlight the current cursor line
+set cursorline
+
 " set background color to dark
 set background=dark
 
@@ -145,6 +148,8 @@ let g:onedark_termcolors=256
 colorscheme onedark
 
 " set ctrlp configurations
+let g:ctrlp_by_filename = 1
+let g:ctrlp_max_depth = 100
 let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_root_markers = ['tsconfig.json']
 let g:ctrlp_match_window_reversed = 0
