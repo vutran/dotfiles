@@ -89,8 +89,8 @@ alias glm="git log --author=vutran"
 alias gbm="git branch -m"
 alias glp="git log --format=\"%Cgreen%h %Cblue %ae %Cred %aI %Creset %s\""
 
-# alias `todolist` (http://todolist.site/)
-alias t="todolist"
+# obsidian (https://obsidian.md/)
+include $HOME/.obsidianrc
 
 # load org-specific configs
 include $HOME/.dropboxrc
@@ -99,3 +99,6 @@ include $HOME/.airtablerc
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/vutran/.oh-my-zsh"
 source $ZSH/oh-my-zsh.sh
+if command -v pyenv 1>/dev/null 2>&1; then
+ eval "$(pyenv init -)"
+fi

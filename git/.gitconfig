@@ -36,6 +36,8 @@
 	rebase = false
 [push]
 	default = simple
+[includeIf "gitdir:~/notes/"]
+	path = ~/.gitconfig-personal
 [includeIf "gitdir:~/dotfiles/"]
 	path = ~/.gitconfig-personal
 [includeIf "gitdir:~/Projects/"]
