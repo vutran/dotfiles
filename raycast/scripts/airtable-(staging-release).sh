@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -l
 
 # Required parameters:
 # @raycast.schemaVersion 1

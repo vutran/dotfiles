@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -l
 
 # Required parameters:
 # @raycast.schemaVersion 1
@@ -13,4 +13,4 @@
 # @raycast.author Vu Tran
 # @raycast.authorURL https://github.com/vutran
 
-curl -s AIRTABLE_PRODUCTION_INTERNAL_RELEASE_VERSION_ENDPOINT | jq -r '"release-"+.releaseVersion[:11]'
+curl -s $AIRTABLE_PRODUCTION_INTERNAL_RELEASE_VERSION_ENDPOINT | jq -r '"release-"+.releaseVersion[:11]'
