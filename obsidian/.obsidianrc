@@ -3,4 +3,4 @@
 # Refer to https://obsidian.md/ for installing Obsidian
 
 ## Alias
-alias odc="git commit -m "Daily check-in: `date +'%Y-%m-%d'`"
+alias odc="git commit -m \"Daily check-in: `date +'%Y-%m-%d'`\""
