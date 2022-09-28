@@ -91,7 +91,6 @@ alias glp="git log --format=\"%Cgreen%h %Cblue %ae %Cred %aI %Creset %s\""
 include $HOME/.obsidianrc
 
 # load org-specific configs
-include $HOME/.dropboxrc
 include $HOME/.airtablerc
 
 # Path to your oh-my-zsh installation.
