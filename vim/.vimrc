@@ -105,7 +105,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpope/vim-fugitive'
 Plugin 'mileszs/ack.vim'
-Plugin 'Valloric/YouCompleteMe', { 'do': './install.py --go-completer --js-completer --tern-completer --clang-completer' }
+" Plugin 'Valloric/YouCompleteMe', { 'do': './install.py --go-completer --js-completer --tern-completer --clang-completer' }
 " Disabling iCompleteMe below since it interferes with <C-k> mapping
 "Plugin 'jerrymarino/iCompleteMe', { 'do': './install.py' }
 Plugin 'Quramy/tsuquyomi'

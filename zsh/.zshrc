@@ -79,12 +79,6 @@ alias ag='ag --path-to-ignore ~/.ignore'
 # Ydiff
 alias sbs='ydiff -s -w 0'
 
-# arc alias
-alias aqs="arc queue-status"
-alias ad="arc diff"
-alias adp="arc diff --preview"
-alias al="arc list"
-
 # git alias
 alias gdl="git diff --cached HEAD^"
 alias gdls="git diff --cached HEAD^ --stat"

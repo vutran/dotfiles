@@ -42,3 +42,5 @@
 	path = ~/.gitconfig-personal
 [includeIf "gitdir:~/Projects/"]
 	path = ~/.gitconfig-personal
+[includeIf "gitdir:~/h/"]
+	path = ~/.gitconfig-airtable
